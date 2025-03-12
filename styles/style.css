@@ -290,3 +290,128 @@ max-width: 636px;
   font-size: 14px;
   margin: 0;
 }
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  flex-wrap: wrap;
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  }
+
+.step {
+flex-basis: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: normal;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+  background-color: #1f1f1f;
+  color: #f2f2f2;
+  padding: 60px 80px;
+}
+
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: normal;
+  align-items:normal;
+}
+
+.footer__column_content_hours {
+  margin-left: auto;
+  position: absolute;
+  right: 250px;
+  font-size: small;
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
+  font-size: small;
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: normal;
+  color: #f2f2f2;
+  padding:0 16px 0 0;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+}
+
+.footer__social-icon {
+  width:16px;
+  height: 16px;
+  padding-right: 10px;
+  padding-bottom: 0;
+}
+
+.footer__copyright {
+  margin-top: 100px;
+  margin-bottom: 0;
+  font-size: small;
+  }
