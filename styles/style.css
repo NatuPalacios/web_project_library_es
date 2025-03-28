@@ -1,10 +1,10 @@
 .page {
- max-width: 1600px;
- min-width: 1100px;
- margin: auto;
- font-family: Arial, sans-serif;
- font-size: 16px;
- line-height: 20px;
+  max-width: 1600px;
+  min-width: 1100px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 
 }
 
@@ -21,7 +21,7 @@
 
 .nav {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
 }
 
 .nav__logo {
@@ -45,27 +45,27 @@
 }
 
 .header__content {
-display: flex;
-justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header__title {
- max-width: 635px;
- margin-top: 128px;
- font-size: 62px;
- line-height: 76px;
- font-weight: 500;
+  max-width: 635px;
+  margin-top: 128px;
+  font-size: 62px;
+  line-height: 76px;
+  font-weight: 500;
 }
 
 .header__description {
-max-width: 515px;
-margin-top: 32px;
-font-size: 20px;
-line-height: 30px;
+  max-width: 515px;
+  margin-top: 32px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
-max-width: 636px;
+  max-width: 636px;
 }
 
 .header__footer {
@@ -247,7 +247,7 @@ max-width: 636px;
 .person_name_feynman {
   top: -30px;
   left: 319px;
-  }
+}
 
 .person_name_burbidge {
   top: 96px;
@@ -257,7 +257,7 @@ max-width: 636px;
 .person_name_cannon {
   right: 216px;
   bottom: 18px;
-  }
+}
 
 .person_name_mitchell {
   bottom: 82px;
@@ -314,10 +314,10 @@ max-width: 636px;
   gap: 40px;
   display: flex;
   justify-content: center;
-  }
+}
 
 .step {
-flex-basis: 220px;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -354,7 +354,7 @@ flex-basis: 220px;
   flex-wrap: nowrap;
   justify-content: space-between;
   align-content: normal;
-  align-items:normal;
+  align-items: normal;
 }
 
 .footer__column_content_hours {
@@ -392,7 +392,7 @@ flex-basis: 220px;
   gap: 10px;
   align-items: normal;
   color: #f2f2f2;
-  padding:0 16px 0 0;
+  padding: 0 16px 0 0;
 }
 
 .footer__column-link {
@@ -404,7 +404,7 @@ flex-basis: 220px;
 }
 
 .footer__social-icon {
-  width:16px;
+  width: 16px;
   height: 16px;
   padding-right: 10px;
   padding-bottom: 0;
@@ -414,4 +414,4 @@ flex-basis: 220px;
   margin-top: 100px;
   margin-bottom: 0;
   font-size: small;
-  }
+}
